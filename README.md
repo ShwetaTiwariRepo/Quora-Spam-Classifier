@@ -28,21 +28,25 @@ Dataset has dump of question asked on Quora with a question id with target value
 
 ## Model Building 
 
-8. Load embedding vectors from Glove of 100 dimensions 
+1. constructs the model with 128 LSTM units and with embeding size of 100
 
-9. constructs the model with 128 LSTM units and with embeding size of 100
+![image](https://user-images.githubusercontent.com/64772772/96829248-d9473e80-1456-11eb-8434-41a05e555857.png)
 
-10. Train the model
+2. Train the model
+![image](https://user-images.githubusercontent.com/64772772/96829433-48bd2e00-1457-11eb-8dff-087930713675.png)
+
 
 ## Check Model Performance/Accuracy
 
-11. Evaluate the model
+### Evaluate the model
+![image](https://user-images.githubusercontent.com/64772772/96829529-7bffbd00-1457-11eb-8d59-f2297912a043.png)
 
-12. Check the prediction on test dataset
 
-## Make Random Validation
+### Get predection on new text
 
-13. Get predection on new text
+![image](https://user-images.githubusercontent.com/64772772/96829746-da2ca000-1457-11eb-802a-fdca467d75e9.png)
 
 ## Save Model with Weights
 Saving the model for transfer learning or model execution later
+
+![image](https://user-images.githubusercontent.com/64772772/96829962-3263a200-1458-11eb-888c-6323d0bf3fac.png)
