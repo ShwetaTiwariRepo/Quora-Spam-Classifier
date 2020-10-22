@@ -1,13 +1,13 @@
 # Quora-Spam-Classifier
 Given the dump of Quora questions and spam flag, built a model to predict if a question on Quora is spam or not
 
-# Data Set : 
+## Data Set : 
 https://www.dropbox.com/sh/kpf9z73woodfssv/AAAw1_JIzpuVvwteJCma0xMla?dl=0
 
-# Programming Language : 
+## Programming Language : 
 Python using nltk & Keras
 
-# Model Architecture: 
+## Model Architecture: 
 Deep Learning using Long Short-Term Memory (LSTM) networks
 
 ## About Data Set
